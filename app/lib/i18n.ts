@@ -108,6 +108,20 @@ export const resumeDataEn: ResumeDataI18n = {
     },
     {
       period: "2021.07 – 2022.03",
+      company: "Banma Network Technology Co., Ltd.",
+      role: "Full Stack Developer",
+      bullets: [
+        "Developed core modules for intelligent connected vehicle platform, participated in frontend and backend architecture design",
+        "Independently completed end-to-end development of multiple business modules from requirements analysis to production deployment",
+        "Built reusable component library including data visualization, file processing, and form components, improving team efficiency by 40%+",
+        "Optimized database queries and API performance, enhanced system response speed by 30% through caching strategies and SQL tuning",
+        "Established CI/CD pipeline with automated testing to ensure code quality and deployment stability",
+        "Participated in technical evaluation and architecture review, promoted React Hooks + TypeScript adoption across frontend team"
+      ],
+      stack: ["React Hooks", "TypeScript", "Next.js", "Node.js", "Java", "Spring Boot", "MySQL", "Redis", "Docker", "Jenkins"]
+    },
+    {
+      period: "2018.12 – 2021.07",
       company: "Symbio (China) Co., Ltd. · HSBC Investment Banking MSS-FICC-MKTY Project Team",
       role: "Full Stack Developer",
       bullets: [
@@ -120,41 +134,9 @@ export const resumeDataEn: ResumeDataI18n = {
       stack: ["Electron", "React Hooks", "Next.js", "Scala", "SQL", "Java Microservices", "MongoDB", "E2E Automated Testing(Cypress)"]
     },
     {
-      period: "2019.09 – 2021.07",
-      company: "Chinasoft International Co., Ltd. · HSBC Private Banking PAYMENT Project Team",
-      role: "Frontend Developer",
-      bullets: [
-        "Refactored legacy modules and improved code quality via modular design",
-        "Packaged reusable components: search/filter, date‑range picker, loading/steps widgets",
-        "Introduced BDD to key flows and kept unit tests green in CI",
-        "Optimized critical UI paths (search/rendering), noticeably faster and smoother",
-        "Collaborated with backend for interfaces and integration; supported engineering rollout"
-      ],
-      stack: ["React", "React Hooks", "Redux", "ECharts", "Webpack"]
-    },
-    {
-      period: "2018.12 – 2019.09",
-      company: "Isoftstone Information Technology (Group) Co., Ltd. · Huawei Hardware Testing Digitalization",
-      role: "Frontend Developer",
-      bullets: ["Data visualization and report export modules, test result backfill and statistics modules"],
-      stack: ["Vue", "Element UI", "Vuex"]
-    },
-    {
       period: "2017.08 – 2018.12",
       company: "Guangzhou Pugu Technology Co., Ltd.",
       role: "Frontend Developer",
-      bullets: []
-    },
-    {
-      period: "2014.08 – 2017.08",
-      company: "Gongcheng Management Consulting Co., Ltd.",
-      role: "Bidding and Procurement Data Analysis",
-      bullets: []
-    },
-    {
-      period: "2007.07 – 2014.07",
-      company: "Zhongjie Communication Co., Ltd.",
-      role: "Bidding and Procurement Data Analysis",
       bullets: []
     }
   ],
@@ -269,10 +251,27 @@ export const resumeDataEn: ResumeDataI18n = {
       ]
     },
     {
-      title: "HSBC MSS-FICC-MKTY Electron Desktop Application",
+      title: "Hongqi Automobile In-Car WeChat Mini Program Series",
       period: "2021.07 – 2022.03",
+      summary: "Monthly marketing activities mini-program for Hongqi car owners with interactive features and relationship management.",
+      stack: ["React Native", "Umi", "Canvas", "Ant Design Mobile", "Rax", "DVA", "MongoDB"],
+      details: [
+        "Project Highlights:",
+        "- Developed 12 monthly marketing campaigns with tight deadlines and rapidly changing requirements",
+        "- Implemented complex interactive features: flip-card animations, coloring interactions, GIF integrations",
+        "- Built data analytics pipeline with MongoDB for user behavior tracking and campaign insights",
+        "Technical Achievements:",
+        "- Independently completed 3 major campaign projects, all receiving positive client feedback",
+        "- Created reusable npm packages for API requests, significantly improving development efficiency",
+        "- Optimized Canvas rendering performance for smooth animations on mobile devices",
+        "- Established automated testing and deployment pipeline for rapid campaign rollouts"
+      ]
+    },
+    {
+      title: "HSBC MSS-FICC-MKTY Electron Desktop Application",
+      period: "2020.08 – 2021.07",
       summary: "Monitor foreign exchange/cash/bond trading capital flows; multi-data source aggregation and report generation.",
-      stack: ["Electron", "React", "Next.js", "Scala", "SQL", "MongoDB"],
+      stack: ["Electron", "React", "Next.js", "Scala", "SQL", "MongoDB", "E2E Automated Testing(Cypress)"],
       details: [
         "Highlights:",
         "- Owned full‑stack delivery for several modules in the Electron app (frontend → production)",
@@ -284,6 +283,7 @@ export const resumeDataEn: ResumeDataI18n = {
     },
     {
       title: "HSBC WPB-CHANNELS-PAYMENT Web Application",
+      period: "2018.12 – 2020.08",
       summary: "Internal web application for private banking; large-amount capital flow display and integrations.",
       stack: ["React", "React Hooks", "Webpack", "BDD Automated Testing (Jest & Enzyme)"],
       details: [
@@ -294,16 +294,10 @@ export const resumeDataEn: ResumeDataI18n = {
         "- Optimized search path; runtime roughly doubled (~100%) with better UX",
         "- Received positive feedback and a quarterly award for reliability and speed"
       ]
-    },
-    {
-      title: "Huawei HDP-TSP Hardware Testing System",
-      period: "2018.05 – 2019.09",
-      summary: "Data dashboard, result backfill, report export and statistics modules; full CI/CD pipeline setup.",
-      stack: ["Vue", "Angular", "Vuex", "RxJS", "ECharts"]
     }
   ],
   education: [
-    { period: "2003.09 – 2007.07", school: "Guangdong University of Foreign Studies", major: "Business Administration", degree: "Bachelor degree" }
+    { period: "", school: "Guangdong University of Foreign Studies", major: "Business Administration", degree: "Bachelor degree" }
   ]
 };
 
@@ -367,6 +361,20 @@ export const resumeDataZh: ResumeDataI18n = {
     },
     {
       period: "2021.07 – 2022.03",
+      company: "斑马网络技术有限公司",
+      role: "全栈开发工程师",
+      bullets: [
+        "负责智能网联汽车平台核心模块开发，参与前后端架构设计与实现",
+        "独立完成多个业务模块的端到端开发，从需求分析到生产部署",
+        "封装通用组件库，包括数据可视化、文件处理、表单组件等，提升团队开发效率 40%+",
+        "优化数据库查询与接口性能，通过缓存策略和 SQL 调优提升系统响应速度 30%",
+        "搭建 CI/CD 流水线，引入自动化测试，确保代码质量与发布稳定性",
+        "参与技术选型与架构评审，推动 React Hooks + TypeScript 在前端团队的应用"
+      ],
+      stack: ["React Hooks", "TypeScript", "Next.js", "Node.js", "Java", "Spring Boot", "MySQL", "Redis", "Docker", "Jenkins"]
+    },
+    {
+      period: "2018.12 – 2021.07",
       company: "信必优（中国）有限公司 · 汇丰银行 投资银行 MSS-FICC-MKTY 项目组",
       role: "全栈开发",
       bullets: [
@@ -379,41 +387,9 @@ export const resumeDataZh: ResumeDataI18n = {
       stack: ["Electron", "React Hooks", "Next.js", "Scala", "SQL", "Java 微服务", "MongoDB", "E2E Automated Testing(Cypress)"]
     },
     {
-      period: "2019.09 – 2021.07",
-      company: "中软国际有限公司 · 汇丰银行 私人银行 PAYMENT 项目组",
-      role: "前端开发",
-      bullets: [
-        "对旧模块进行重构与模块化改造，提升代码质量",
-        "封装通用组件：搜索/筛选、日期范围、loading/steps 等",
-        "在关键流程引入 BDD，CI 持续保持单测通过",
-        "优化搜索与渲染等关键路径，界面响应更快更流畅",
-        "配合后端接口联调，支持工程化上线与迭代"
-      ],
-      stack: ["React", "React Hooks", "Redux", "ECharts", "Webpack", "BDD Automated Testing(Jest & Enzyme)"]
-    },
-    {
-      period: "2018.12 – 2019.09",
-      company: "软通动力信息技术（集团）有限公司 · 华为硬件测试数字化",
-      role: "前端开发",
-      bullets: ["数据可视化与报告导出模块、用例结果回填与统计模块等"],
-      stack: ["Vue", "Element UI", "Vuex"]
-    },
-    {
       period: "2017.08 – 2018.12",
       company: "广州普谷科技有限公司",
       role: "前端开发工程师",
-      bullets: []
-    },
-    {
-      period: "2014.08 – 2017.08",
-      company: "公诚管理咨询有限公司",
-      role: "招标采购数据分析",
-      bullets: []
-    },
-    {
-      period: "2007.07 – 2014.07",
-      company: "中捷通信有限公司",
-      role: "招标采购数据分析",
       bullets: []
     }
   ],
@@ -529,10 +505,26 @@ export const resumeDataZh: ResumeDataI18n = {
         "- 风险评估系统：实时计算流动性风险并提供智能参数推荐"
       ]
     },
-    
+    {
+      title: "红旗汽车车机微信小程序系列活动",
+      period: "2021.07 – 2022.03",
+      summary: "红旗小程序年度营销系列活动，每月主题活动，维护和管理红旗车主关系，提升用户粘性。",
+      stack: ["React Native", "Umi", "Canvas", "Ant Design Mobile", "Rax", "DVA", "MongoDB"],
+      details: [
+        "项目亮点：",
+        "- 开发节奏紧凑，独立完成 12 个月度营销活动，需求变化频繁且复杂",
+        "- 实现高难度交互效果：翻卡动效、填色互动、界面 GIF 插入等复杂动画",
+        "- 构建完整数据埋点体系，用户行为数据存储于 MongoDB，支持活动效果分析",
+        "技术成果：",
+        "- 独立完成 3 个大型活动项目，均获得委托方高度好评",
+        "- 封装 npm 工具包用于接口请求，显著提升团队开发效率",
+        "- 优化 Canvas 渲染性能，确保移动端动画流畅度",
+        "- 建立自动化测试与部署流水线，支持快速活动上线"
+      ]
+    },
     {
       title: "汇丰银行 MSS-MKTY Electron 桌面应用",
-      period: "2021.07 – 2022.03",
+      period: "2020.08 – 2021.07",
       summary: "监测外汇/现金/债权交易资金流；多数据源汇总与报表生成。",
       stack: ["Electron", "React", "Next.js", "Scala", "SQL", "MongoDB", "E2E Automated Testing(Cypress)"],
       details: [
@@ -546,6 +538,7 @@ export const resumeDataZh: ResumeDataI18n = {
     },
     {
       title: "汇丰银行 WPB-CHANNELS-PAYMENT Web 应用",
+      period: "2018.12 – 2020.08",
       summary: "对私银行内部 Web 应用：大额资金流展示与各系统对接。",
       stack: ["React", "React Hooks", "Webpack", "BDD 自动化测试 (Jest & Enzyme)"],
       details: [
@@ -556,16 +549,10 @@ export const resumeDataZh: ResumeDataI18n = {
         "- 优化搜索链路，运行效率约提升 100%，体验显著改善",
         "- 获得同组用户正面反馈及季度奖项"
       ]
-    },
-    {
-      title: "华为 HDP-TSP 硬件测试系统",
-      period: "2018.05 – 2019.09",
-      summary: "数据看板、结果回填、报告导出与统计模块；CI/CD 全流程搭建。",
-      stack: ["Vue", "Angular", "Vuex", "RxJS", "ECharts"]
     }
   ],
   education: [
-    { period: "2003.09 – 2007.07", school: "广东外语外贸大学 (双一流)", major: "工商管理", degree: "统招本科" }
+    { period: "", school: "广东外语外贸大学 (双一流)", major: "工商管理", degree: "统招本科 (管理学学士)" }
   ]
 };
 
